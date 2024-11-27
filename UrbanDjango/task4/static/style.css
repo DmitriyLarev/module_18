@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+img {
+    width: 200px;
+}
+
+button {
+    font-size: 15px;
+}
+
+.order {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.games {
+    font-size: 18px;
+    width: 300px;
+}
+
+.games li {
+    margin-bottom: 5px;
+}
+
+.games button {
+    float: right;
+}
+
+

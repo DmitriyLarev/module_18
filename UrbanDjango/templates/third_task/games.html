@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Магазин</title>
     <style>
-       li {
-            font-size: 20px;
-       }
-        button {
-            font-size: 16px;
-        }
+      li {
+        font-size: 20px;
+      }
+      button {
+        font-size: 16px;
+      }
     </style>
-</head>
-<body>
-<h1>Игры</h1>
-<ul>
-    {% for game in games %}
-    <li>{{ game }}
+  </head>
+  <body>
+    <h1>Игры</h1>
+    <ul>
+      {% for game in games %}
+      <li>
+        {{ game }}
         <button>Купить</button>
-    </li>
-    {% endfor %}
-</ul>
-<button><a href="/platform">Вернутся обратно</a></button>
-</body>
+      </li>
+      {% endfor %}
+    </ul>
+    <button><a href="/platform">Вернутся обратно</a></button>
+  </body>
 </html>
